@@ -1,5 +1,5 @@
 {
-  "name": "chrome-extension-template",
+  "name": "bakebot-livekit-extension",
   "version": "1.0.0",
   "description": "A modern Chrome extension template with TypeScript, React, and Vite",
   "main": "manifest.json",
@@ -22,6 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chrome": "^0.0.268",
+    "@types/node": "^24.5.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.0",

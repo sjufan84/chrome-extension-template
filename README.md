@@ -1,6 +1,6 @@
-# Chrome Extension Template
+# Bakebot LiveKit Extension
 
-A modern Chrome extension template built with TypeScript, React, and Vite. This template provides a solid foundation for building Chrome extensions with modern development tools and best practices.
+A modern Chrome extension built with TypeScript, React, and Vite for LiveKit integration. This extension provides a solid foundation for building Chrome extensions with modern development tools and best practices.
 
 ## Features
 
@@ -16,7 +16,7 @@ A modern Chrome extension template built with TypeScript, React, and Vite. This 
 ## Project Structure
 
 ```
-chrome-extension-template/
+bakebot-livekit-extension/
 ├── manifest.json          # Extension manifest (Manifest V3)
 ├── popup.html             # Popup HTML
 ├── popup.css              # Popup styles
@@ -33,26 +33,25 @@ chrome-extension-template/
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
-- npm or yarn
+- Bun (latest version)
 - Chrome browser
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sjufan84/chrome-extension-template.git
-   cd chrome-extension-template
+   git clone https://github.com/sjufan84/bakebot-livekit-extension.git
+   cd bakebot-livekit-extension
    ```
 
 2. **Install dependencies**
    ```bash
-   npm install
+   bun install
    ```
 
 3. **Build the extension**
    ```bash
-   npm run build
+   bun run build
    ```
 
 4. **Load the extension in Chrome**
@@ -66,18 +65,18 @@ chrome-extension-template/
 For development with hot reload:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 This will watch for changes and rebuild automatically.
 
 ## Available Scripts
 
-- `npm run build` - Build the extension for production
-- `npm run dev` - Build and watch for changes during development
-- `npm run lint` - Run ESLint to check for code issues
-- `npm run lint:fix` - Fix ESLint issues automatically
-- `npm run type-check` - Run TypeScript type checking
+- `bun run build` - Build the extension for production
+- `bun run dev` - Build and watch for changes during development
+- `bun run lint` - Run ESLint to check for code issues
+- `bun run lint:fix` - Fix ESLint issues automatically
+- `bun run type-check` - Run TypeScript type checking
 
 ## Extension Components
 
@@ -147,7 +146,7 @@ Add more permissions in `manifest.json` as needed for your specific use case.
 
 1. **Build the extension**
    ```bash
-   npm run build
+   bun run build
    ```
 
 2. **Test the built extension**
@@ -166,7 +165,7 @@ Add more permissions in `manifest.json` as needed for your specific use case.
 1. **Extension not loading**: Check `manifest.json` for syntax errors
 2. **Content script not running**: Verify URL patterns in manifest
 3. **Storage not working**: Check permissions in manifest
-4. **Build errors**: Run `npm run type-check` and `npm run lint`
+4. **Build errors**: Run `bun run type-check` and `bun run lint`
 
 ### Debug Tips
 
